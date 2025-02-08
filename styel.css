@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* Mengimpor font dari Google Fonts dengan variasi tebal dan gaya miring */
+
+body {
+    font-family: 'Playfair Display', serif; /* Mengatur font utama halaman menggunakan Playfair Display */
+    background-color: black; /* Memberikan warna latar belakang hitam untuk keseluruhan halaman */
+    color: rgb(240, 244, 243); /* Memberikan warna teks dengan nuansa abu-abu terang */
+}
+
+.navbar {
+    display: flex; /* Menggunakan flexbox untuk tata letak navigasi */
+    justify-content: space-between; /* Menyebarkan elemen di navbar secara merata dengan jarak di antaranya */
+    align-items: center; /* Menyelaraskan elemen secara vertikal di tengah */
+    margin: 2rem 5rem; /* Memberikan jarak luar pada navbar (atas/bawah: 2rem, kiri/kanan: 5rem) */
+}
+
+.socila-media {
+    display: flex; /* Menggunakan flexbox untuk tata letak ikon media sosial */
+    align-items: center; /* Menyelaraskan ikon secara vertikal di tengah */
+    gap: 10px; /* Memberikan jarak antar ikon media sosial */
+}
+
+.gmail {
+    font-size: 14px; /* Ukuran font untuk teks di dalam elemen dengan kelas .gmail */
+    font-weight: 400; /* Memberikan ketebalan teks normal */
+}
+
+.socila-media a {
+    text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+    color: aliceblue; /* Memberikan warna teks tautan */
+    transition: all 0.3s ease-in-out; /* Menambahkan efek transisi halus saat elemen di-hover */
+}
+
+hr {
+    border-color: beige; /* Warna garis horizontal (hr) */
+    margin: 0 4.5rem; /* Jarak luar kiri dan kanan untuk garis horizontal */
+}
+
+.hero {
+    display: flex; /* Menggunakan flexbox untuk tata letak bagian hero */
+    height: 70vh; /* Tinggi bagian hero sebesar 70% dari tinggi viewport */
+    flex-direction: column; /* Menyusun elemen secara vertikal */
+    justify-content: center; /* Menempatkan elemen di tengah secara vertikal */
+    align-items: center; /* Menempatkan elemen di tengah secara horizontal */
+}
+
+.fotbar {
+    width: 120px; /* Lebar gambar profil */
+    height: 120px; /* Tinggi gambar profil */
+    border-radius: 50%; /* Membuat gambar berbentuk lingkaran */
+    object-fit: cover; /* Memastikan gambar sesuai dengan ukuran tanpa distorsi */
+    margin-bottom: 16px; /* Memberikan jarak bawah pada gambar */
+}
+
+.jabatan {
+    text-align: center; /* Menyelaraskan teks di tengah secara horizontal */
+}
+
+.heading {
+    margin-top: 1rem; /* Memberikan jarak atas pada heading */
+    font-size: 38px; /* Ukuran font untuk teks heading */
+    line-height: 40px; /* Jarak antar baris teks heading */
+    text-align: center; /* Menyelaraskan teks di tengah */
+    background: linear-gradient(to right, #e5dfdf, #a28080); /* Memberikan efek gradien pada teks */
+    -webkit-background-clip: text; /* Memotong latar belakang hanya pada area teks */
+    -webkit-text-fill-color: transparent; /* Membuat latar belakang gradien terlihat pada teks */
+    margin-bottom: 2rem; /* Memberikan jarak bawah pada heading */
+}
+
+.btn-primery {
+    text-decoration: none; /* Menghilangkan garis bawah pada tombol */
+    background-color: aqua; /* Warna latar tombol */
+    border: #0e1fdc; /* Warna border tombol */
+    color: rgb(8, 9, 9); /* Warna teks pada tombol */
+    padding: 1rem 2rem; /* Padding tombol (atas/bawah: 1rem, kiri/kanan: 2rem) */
+    border-radius: 8px; /* Membuat sudut tombol membulat */
+    transition: all 0.3s ease-in-out; /* Menambahkan efek transisi halus saat tombol di-hover */
+}
+
+.btn-primery:hover {
+    background-color: #a9aab3; /* Warna latar tombol saat di-hover */
+    color: rgb(246, 3, 3); /* Warna teks tombol saat di-hover */
+}
